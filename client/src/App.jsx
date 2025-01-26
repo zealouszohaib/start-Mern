@@ -1,4 +1,3 @@
-import 'react-loading-skeleton/dist/skeleton.css'
 import './index.css'
 import { useNavigate, useRoutes } from 'react-router';
 import app_routes from './components/app_routes';
@@ -10,7 +9,6 @@ import AnimatedRoute from './components/Layout/AnimateRoute';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { setAuthToken } from './api/axios';
 import { me } from './api/auth';
-import "react-datepicker/dist/react-datepicker.css";
 
 
 function App() {
